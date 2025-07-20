@@ -1,0 +1,159 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.cart-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.cart-updated {
+  background-color: #e9f6e9;
+  padding: 10px;
+  border: 1px solid #cce5cc;
+  color: #28a745;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.cart-table th, .cart-table td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.product-img {
+  width: 80px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity button {
+  background-color: #ddd;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.quantity input {
+  width: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 0 5px;
+}
+
+.back-to-shop {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.back-to-shop:hover {
+  background-color: #0056b3;
+}
+
+.cart-summary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coupon-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.coupon-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.coupon-section input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.coupon-section button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.coupon-section button:hover {
+  background-color: #218838;
+}
+
+.summary-box {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.subtotal, .total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.shipping p, .shipping ul {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #17a2b8;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.checkout-btn:hover {
+  background-color: #138496;
+}
